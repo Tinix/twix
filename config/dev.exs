@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :twix, Twix.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "password",
   hostname: "localhost",
   database: "twix_dev",
   stacktrace: true,
